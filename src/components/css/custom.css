@@ -1,0 +1,39 @@
+body{
+    height: 100vh
+}
+
+
+#iFrame {
+    background: rgb(63, 128, 191);
+    border-radius: 0px;
+    box-shadow: 0px 20px 18px 1px #c4c4c4 !important
+}
+
+#iFrame .iframeStyle{
+    width: 60vw;
+    height: 30vw;
+    border-radius: .5rem
+}
+
+@media only screen and (max-width: 1000px) {
+    #iFrame .iframeStyle{
+        width: 80vw;
+        height: 40vw;
+        border-radius: .5rem
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #iFrame .iframeStyle{
+        width: 90vw;
+        height: 50vw;
+        border-radius: .5rem
+    }
+}
+
+
+
+.querySection {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
